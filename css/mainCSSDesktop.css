@@ -1,0 +1,184 @@
+@media screen and (min-width:800px) {
+    .corps_blanc{
+        height: 400px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    min-height: 500px;
+
+}
+.corps{
+    min-width: 100px;
+    min-height: 500px;
+    margin-top: 1rem;
+    display:grid;
+    grid-template-rows:10% 90%;
+    justify-items:center;
+    align-items: center;
+
+}
+.nav{
+    margin-top: 4rem;
+}
+.corps_blanc{
+    width: 70%;
+    border-radius: 0.8rem;
+    min-height: 60%;
+    margin-top:4rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.bloc11{
+    align-self: start;
+    display: grid;
+    grid-template-rows: 20% 40% 20%;
+    height: 80%;
+    margin-top: 2rem;
+}
+.bill{
+    margin-left: 0.5rem;
+}
+.bloc1{
+    position: relative;
+}
+.bloc1 img{
+    position: absolute;
+    z-index: 1;
+    left: 0.7rem;
+    top: 1.5rem;
+}
+.bloc1 input{
+    position: absolute;
+    width: 90%;
+    margin-left: 00.5rem;
+    height: 50%;
+    border: 0;
+}
+.bloc2{
+    margin-top: 0.5rem;
+}
+.my6blocs{
+    margin-left: 0.5rem;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+    margin-right: 0.5rem;
+}
+.my6blocs input{
+    width: 100%;
+    border: 0;
+    border-radius: 0.3rem;
+}
+.button1:hover{
+    background-color: hsl(185, 41%, 84%);
+    color: black;
+}
+.button1:focus{
+    background-color: hsl(172, 67%, 45%);
+    color: black;
+}
+
+.bloc3{
+    position: relative;
+    margin-top: 1rem;
+    height: 100%;
+}
+.bloc3 p{
+    position: absolute;
+}
+.bloc3 img{
+    position: absolute;
+    top: 2.5rem;
+    left: 0.7rem; ;
+    z-index: 1;
+}
+.bloc3 input{
+    top: 2rem;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    margin-left: 00.5rem;
+    border: 0;
+}
+.bloc4{
+    border-radius: 0.5rem;
+    align-self: start;
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    height: 80%;
+    margin: 0.5rem;
+    margin-top: 2rem;
+}
+.D1{
+    position: relative;
+}
+.D1 p.tip{
+    position: absolute;
+    top: 2rem;
+}
+.D1 p.person{
+    position: absolute;
+    top: 3rem;
+}
+.D1 img{
+    position: absolute;
+    right: 3.7rem;
+    top: 2.5rem;
+}
+.D1 div{
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+}
+.D2{
+    position: relative;
+    height: 100%;
+}
+
+.D2 img{
+    position: absolute;
+    right: 3.7rem;
+    top: 0.5rem;
+}
+.D2 div{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+.D2 p.tip{
+    position: absolute;
+    
+}
+.D2 p.person{
+    position: absolute;
+    top: 1rem;
+}
+.D3{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.D3 input{
+    width: 100%;
+    border: 0;
+    font-size: 20px;
+    border-radius: 0.3rem;
+    opacity: 0.2;
+}
+.reset:hover{
+    opacity: 1;
+    background-color: hsl(185, 41%, 84%);
+}
+.reset:focus{
+    opacity: 1;
+    background-color: hsl(172, 67%, 45%);
+}
+.b{
+     font-size: 20px !important;
+}

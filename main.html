@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> tip-calculator</title>
+        <meta charset="utf-8"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="./css/color-typo.css">
+        <link rel="stylesheet" media="screen and (max-width:375px)" href="./css/mainCSS375.css">
+        <link rel="stylesheet" media="screen and (min-width:376px)" href="./css/mainCSSDesktop.css">
+        <script src="./main.js"></script>
+    </head>
+    <body class="body bg-Light-grayish-cyan1 ">
+        <div class="bg-Light-grayish-cyan1 corps">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="./images/logo.svg" alt=" "/>
+                </div>
+            </nav>
+            <div class="corps_blanc bg-white">
+                <div class="bloc11">
+                    <div class="bloc1">
+                        <p class="bill">Bill</p>
+                        <img src="./images/icon-dollar.svg" alt=" "/>
+                        <input id="input1" class="b2 bg-Light-grayish-cyan" type="text"/>
+                    </div>
+                    <div class="bloc2">
+                        <p class="bill ST">Select Tip %</p>
+                        <div class="my6blocs">
+                            <input onclick="Tip5()" class="button bg-Very-dark-cyan button1  white" type="button" value="5%"/>
+                            <input onclick="Tip10()" class="button bg-Very-dark-cyan button1 white" type="button" value="10%"/>
+                            <input onclick="Tip15()" class="button bg-Very-dark-cyan button1 white" type="button"  value="15%"/>
+                            <input onclick="Tip25()" class="button bg-Very-dark-cyan button1 white" type="button" value="25%"/>
+                            <input onclick="Tip50()" class="button bg-Very-dark-cyan button1 white" type="button" value="50%"/>
+                            <input id="CUSTOM" onchange="custom()" class="b button bg-Light-grayish-cyan" type="text" placeholder="Costum"/>
+                        </div>
+                    </div>
+                    <div class="bloc3">
+                        <p class="bill NP">Number of People</p>
+                        <img src="./images/icon-person.svg" alt=" "/>
+                        <input id="input2" class="b1 bg-Light-grayish-cyan" type="text"/>
+                    </div>
+                </div>
+                <div class="bloc4 bg-Very-dark-cyan">
+                    <div class="D1">
+                        <p class="tip white">Tip Amount</p>
+                        <p class="person">/  person</p>
+                        <img class="img1" src="./images/icon-dollar.svg" alt=" "/>
+                        <div id="TIP" class="resultat1 StrongCyan">0.00</div>
+    
+                    </div>
+                    <div class="D2">
+                        <p class="tip white">Total</p>
+                        <p class="person">/  person</p>
+                        <img class="img2" src="./images/icon-dollar.svg" alt=" "/>
+                        <div id="TOTAL" class="resultat2 StrongCyan">0.00</div>      
+                    </div>
+                    <div class="D3">
+                        <input id="RESET" class="reset" type="button" value="RESET">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'monoSpace';
+    src: url('../Space_Mono/SpaceMono-Regular.ttf') format('ttf');
+    src: url('../Space_Mono/SpaceMono-Bold.ttf');
+    src: url('../Space_Mono/SpaceMono-Italic.ttf');
+    src: url('../Space_Mono/SpaceMono-Italic.ttf');    
+}
+.body{
+    font-family: monospace;
+}
+.bloc11 p{
+    color: hsl(186, 14%, 43%);
+}
+.bloc4 p.person{
+    color:hsl(184, 14%, 56%) ;
+}
+.StrongCyan{
+    color:hsl(172, 67%, 45%);
+}
+
+.Very-dark-cyan{
+    color: hsl(183, 100%, 15%);
+}
+
+.Dark-grayish-cyan{
+    color: hsl(186, 14%, 43%);
+}
+
+.Dark-grayish-cyan{
+    color:  hsl(184, 14%, 56%);
+}
+
+.Light-grayish-cyan1{
+    color: hsl(185, 41%, 84%);
+}
+
+.Light-grayish-cyan{
+    color: hsl(189, 41%, 97%);
+}
+
+.white{
+    color:hsl(0, 0%, 100%);
+}
+
+
+.bg-StrongCyan{
+    background-color:hsl(172, 67%, 45%);
+}
+
+.bg-Very-dark-cyan{
+    background-color: hsl(183, 100%, 15%);
+}
+
+.bg-Dark-grayish-cyan{
+    background-color: hsl(186, 14%, 43%);
+}
+
+.bg-Dark-grayish-cyan{
+    background-color:  hsl(184, 14%, 56%);
+}
+
+.bg-Light-grayish-cyan1{
+    background-color: hsl(185, 41%, 84%);
+}
+
+.bg-Light-grayish-cyan{
+    background-color: hsl(189, 41%, 97%);
+}
+
+.bg-white{
+    background-color:hsl(0, 0%, 100%);
+}
+.body input{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.person{
+    font-size: 0.7rem;
+    margin-top: 1px;
+    margin-left: 1rem;
+
+}
+
+.tip{
+    margin-bottom: 1px;
+    margin-left: 1rem;
+}
+
+.b,.b2,.b1 {
+    border-radius: 0.3rem;
+}
+
+.b2,.b1 {
+    text-align: right;
+    padding-right:0.5rem ;
+}
